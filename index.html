@@ -4,22 +4,45 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script-->
+    <link rel="icon" href="images/apple.svg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <title>Ezequiel Barreto</title>
 </head>
 <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Projects</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#apps">Apps</a>
+            </li>
+            
+            <!--li class="nav-item">
+                <a class="nav-link" href="#libraries">Libraries</a>
+            </li-->
+            
+            
+          </ul>
+        
+        </div>
+      </nav>
 
     <div class="container">
-        <div class="row">
+    
+        <div id="apps" class="row">
             <div class="col">
-                <h1 class="title-margin">Ezequiel Barreto - Projects </h1>
+                <h2 class="title-margin">Apps</h2>
                 <div class="line"></div>
+
             </div>
         </div>
-    
-
         <div class="row">
             <div class="col">
                 <h2 class="title-margin">DoMemory</h3>
@@ -29,11 +52,13 @@
             <div class="col ">
                 <img class="device" src="images/domemory.png">
             </div>
-            <div class="col">
+            <div class="col app-container">
                 <h5>Classic board game with emojis</h5>
                 <h6>A classic of board games with the emojis that you use every day, play the easy level or if you are an expert, play the most difficult level without running out of time.</h6>
-
-                <img class="download" src="images/download.png">
+                <a href="https://apps.apple.com/us/app/domemory/id1533115091" target="_blank">
+                    <img class="download" src="images/download.png">
+                </a>
+                
             </div>
         </div>
 
@@ -47,11 +72,13 @@
             <div class="col ">
                 <img class="device" src="images/spacegram.png">
             </div>
-            <div class="col">
+            <div class="col app-container">
                 <h5>Spacegram an app to explore the universe. </h5>
                 <h6>Pictures from space, every day different picture, HD pictures, see a little description about the picture, search pictures by day, save your favorites pictures, share pictures</h6>
-
-                <img class="download" src="images/download.png">
+                
+                <a href="https://apps.apple.com/us/app/spacegram/id1522603295" target="_blank">
+                    <img class="download" src="images/download.png">
+                </a>
             </div>
         </div>
 
@@ -62,15 +89,23 @@
         </div>
         <div class="row">
             <div class="col ">
-                <img class="device" src="images/spacegram.png">
+                <img class="device" src="images/folder.png">
             </div>
-            <div class="col">
-                <h5>Spacegram an app to explore the universe. </h5>
-                <h6>Pictures from space, every day different picture, HD pictures, see a little description about the picture, search pictures by day, save your favorites pictures, share pictures</h6>
-
-                <img class="download" src="images/download.png">
+            <div class="col app-container">
+                <h5>Save your information</h5>
+                <h6>...</h6>
+                
+                <img class="download" src="images/coming-soon.jpeg">
             </div>
         </div>
+
+        <!--div id="libraries" class="row">
+            <div class="col">
+                <h2 class="title-margin">Library</h2>
+                <div class="line"></div>
+
+            </div>
+        </div-->
 
     </div>
 </body>

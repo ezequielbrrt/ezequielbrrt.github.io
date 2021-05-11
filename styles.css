@@ -18,7 +18,7 @@ h1, h2, h5, h6 {
 }
 
 .device {
-    width: 60%;
+    width: 70%;
     margin: auto;    
     display: block;
     text-align: center;
@@ -26,7 +26,7 @@ h1, h2, h5, h6 {
 }
 
 .download {
-    width: 50%;
+    width: 60%;
     margin: auto;    
     display: block;
     text-align: center;
@@ -34,3 +34,7 @@ h1, h2, h5, h6 {
 }
 
 
+.app-container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
