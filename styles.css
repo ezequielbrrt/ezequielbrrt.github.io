@@ -2,7 +2,7 @@ body {
     background-color: #18191b;
 }
 
-h1, h2, h5, h6 {
+h1, h2, h5, h6, p {
     color: white;
 }
 
@@ -106,3 +106,68 @@ h1, h2, h5, h6 {
     margin-bottom: 15px;
     line-height: 24px;
   }
+
+  .projects-icon-style {
+    border-radius: 15%;
+    width:100px;
+    height:100px;
+    overflow:hidden;
+  }
+
+  .span2,
+.span10 {
+  padding: 5px;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-block;
+  }
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.carousel{
+  display:block;
+  width: 100%;
+  height: 150px;
+  overflow-x: scroll;
+  padding: 15px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.item {
+  display: inline-block;
+  width: 380px;
+  height: 110px;
+  background-size: cover;
+  position:relative;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
